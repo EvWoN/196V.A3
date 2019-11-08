@@ -174,7 +174,11 @@ for(var x = 0; x < symbols.length; x++){
 
 
   //Load the data & render the chart
-  d3.csv('data.csv')
+
+  //If hosting on a web server, use the local data file:
+  //d3.csv('data.csv')
+  //If opening with no server:
+  d3.csv('https://raw.githubusercontent.com/EvWoN/196V.A3/master/data.csv')
     .then(data => {
       data.forEach(d => {
         //All the attributes must be added this way
