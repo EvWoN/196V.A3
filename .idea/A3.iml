@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/d3" level="application" />
+    <orderEntry type="library" name="@types/d3-array" level="application" />
+    <orderEntry type="library" name="@types/d3-axis" level="application" />
+    <orderEntry type="library" name="@types/d3-box" level="application" />
+    <orderEntry type="library" name="@types/d3-polygon" level="application" />
+    <orderEntry type="library" name="d3.v5" level="application" />
   </component>
 </module>
